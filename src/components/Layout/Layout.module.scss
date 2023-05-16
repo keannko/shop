@@ -1,0 +1,41 @@
+.headerWrapper {
+  background-color: rgb(230, 136, 136);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.linksWrapper {
+  font-family: sans-serif;
+  display: flex;
+  gap: 240px;
+  font-size: 18px;
+
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.loginImage {
+  cursor: pointer;
+}
+
+.imagesBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outlet {
+    background: rgb(131,127,196);
+    background: linear-gradient(90deg, rgba(131,127,196,1) 0%, rgba(251,244,197,1) 38%, rgba(0,212,255,1) 100%);
+  height: calc(100vh - 74px - 21px);
+}
